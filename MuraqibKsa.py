@@ -131,7 +131,7 @@ if __name__ == "__main__":
         number_to_search = args.number
     else: 
         number_to_search = input(
-            "\033[94m[**] Enter the number to search for (e.g., 0500000000 or +966500000000): \033[0m"
+            "\033[94m[**] Enter the number to search for (e.g., 0500000000 or +966500000000): \033[0m \033[94m\n[**]\033[0m"
         )
 
     if not number_to_search:
