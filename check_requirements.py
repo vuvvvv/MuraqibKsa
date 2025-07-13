@@ -1,7 +1,8 @@
 import base64
 import importlib.util
 import sys
-from loding_main import  Lodding
+
+from loding_main import Lodding
 
 
 def check_library_installed(package_name):
