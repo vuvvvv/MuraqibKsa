@@ -66,7 +66,7 @@ This is an open-source, command-line interface (CLI) tool designed to help users
   <br><br>
   <br><br>
 
-![لقطة شاشة ](img/2.jpg "logo")
+![لقطة شاشة ](img/56.gif "logo")
 <br><br>
 
 ## **For Mac Os**
@@ -174,4 +174,8 @@ Fork the repository, make your changes, and submit a Pull Request.
 Contact me directly on GitHub for any questions or support.
 <br><br>
 
-@vuvvvv
+[Discussions](https://github.com/vuvvvv/MuraqibKsa/discussions)
+
+<br><br>
+
+[@vuvvvv](https://github.com/vuvvvv)
