@@ -174,8 +174,6 @@ Fork the repository, make your changes, and submit a Pull Request.
 Contact me directly on GitHub for any questions or support.
 <br><br>
 
-[Discussions](https://github.com/vuvvvv/MuraqibKsa/discussions)
-
-<br><br>
+[@Discussions](https://github.com/vuvvvv/MuraqibKsa/discussions)
 
 [@vuvvvv](https://github.com/vuvvvv)
