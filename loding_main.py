@@ -2,7 +2,7 @@ import base64
 import sys
 import time
 
-
+# for loading progress
 def loading_progress(stop_event, duration=15):
     total_steps = 30
     for i in range(total_steps + 1):

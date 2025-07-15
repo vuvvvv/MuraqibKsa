@@ -1,29 +1,27 @@
-# MuraqibKsa
+# MuraqibKSA KSAمراقب
 
-# مراقب KSA
+<br><br>
+
+![لقطة شاشة ](img/capture_250713_220525.png "logo")
+<br><br>
+<br><br>
 
 # Description
 
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
 This is an open-source, command-line interface (CLI) tool designed to help users identify callers in Saudi Arabia by their mobile phone number.
-![لقطة شاشة ](img/capture_250713_220525.png "logo")
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
+<br><br>
 
-# Installation And Run
+# Installation
 
-## For windows
+## **For windows**
 
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
+- Download`git clone https://github.com/vuvvvv/MuraqibKsa.git`
+  <br><br>
 
-- Download
-  `git clone https://github.com/vuvvvv/MuraqibKsa.git`
 - Install requirements.txt
   `pip install -r requirements.txt`
+  <br><br>
+
 - Run
   `python .\MuraqibKsa.py  `
   Or
@@ -31,49 +29,56 @@ This is an open-source, command-line interface (CLI) tool designed to help users
 
 ### There are issues in Windows with Arabic language support. Follow these steps to make it work
 
-&nbsp;&nbsp;&nbsp;
+<br><br>
 
-- before run `python .\MuraqibKsa.py` in your cmd to supports UTF-8 encoding to correctly display Arabic text use `chcp 65001`
-  &nbsp;&nbsp;&nbsp;
+- Before run `python .\MuraqibKsa.py` in your cmd to supports UTF-8 encoding to correctly display Arabic text use `chcp 65001`
+  <br><br>
 - And change font from cmd to
   `Simsun-ExtB`
-  &nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;
-  ![لقطة شاشة ](img/capture_250713_210225.jpg "logo")
-  &nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;
-  ![لقطة شاشة ](img/capture_250713_222135.png "logo")
-  &nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;
 
-## For Linux
+  _Font_
+  <br><br>
 
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
+<br><br>
+
+![لقطة شاشة ](img/capture_250713_210225.jpg "logo")
+<br><br>
+<br><br>
+
+![لقطة شاشة ](img/capture_250713_222135.png "logo")
+<br><br>
+
+## **For Linux**
 
 - Download
   `git clone https://github.com/vuvvvv/MuraqibKsa.git`
+  <br><br>
 
 - install requirements.txt
   `pip install -r requirements.txt`
+  <br><br>
+
 - Run
   `python .\MuraqibKsa.py  `
   or
   `python .\MuraqibKsa.py Number phone `
+  <br><br>
+  <br><br>
+  <br><br>
 
-## For Mac Os
+![لقطة شاشة ](img/2.jpg "logo")
+<br><br>
 
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
+## **For Mac Os**
 
-<span style="color:green;"> Not yet </span>
+**_Not yet_**
 
-## For Termux
+## **For Termux**
 
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
+**_Not supported_**
 
-<span style="color:red;"> Not supported </span>
+<br><br>
+<br><br>
 
 | Operating System | Support Status |
 | ---------------- | -------------- |
@@ -82,47 +87,91 @@ This is an open-source, command-line interface (CLI) tool designed to help users
 | macOS            | Not Yet Tested |
 | Termux           | Not Supported  |
 
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
+<br><br>
+<br><br>
+<br><br>
 
 # Compile
 
+<br><br>
+
+Windows
+
+- Install Python `https://www.python.org/downloads/release/python-3110/` recommend Python 3.11.0
+
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-- windows
-  install Python `https://www.python.org/downloads/release/python-3110/` recommend Python 3.11.0
+Linux
 
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-- Linux
-
-* **Debian**
-  install Python `sudo apt install python3`
-  &nbsp;&nbsp;&nbsp;
-* **Arch**
-  install Python `sudo pacman -S python`
-  &nbsp;&nbsp;&nbsp;
-* **OpenSUSE**
+- **Debian**
+  Install Python `sudo apt install python3`
+  <br><br>
+- **Arch**
+  Install Python `sudo pacman -S python`
+  <br><br>
+- **OpenSUSE**
   install Python `sudo zypper install python3`
 
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
+<br><br>
+<br><br>
 
 ### **Library**
 
 - The `check_requirements.py` file uses the `check_library_installed` function to verify the installation status of packages
 
+<br><br>
+
 - Or install the required Python packages from the `requirements.txt` file, use `pip install -r requirements.txt`
 
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-| Library | Description | Version | Support Status |
-|---------------------|---------------------------------------------------------------------------------------------------------|----------|----------------|
-| selenium | For browser automation, helping with UI testing, web automation, and data scraping. | 4.33.0 | Supported |
-| arabic_reshaper | For processing and reshaping Arabic text to ensure correct display in environments that may not natively support Arabic script. | 3.0.0 | Supported |
-| python-bidi | For handling bidirectional text (like Arabic and Hebrew), ensuring its proper rendering and orientation. | 0.6.6 | Supported |
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+| Library         | Description                                                                                                                     | Version | Support Status |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------- | -------------- |
+| selenium        | For browser automation, helping with UI testing, web automation, and data scraping.                                             | 4.33.0  | Supported      |
+| arabic_reshaper | For processing and reshaping Arabic text to ensure correct display in environments that may not natively support Arabic script. | 3.0.0   | Supported      |
+| python-bidi     | For handling bidirectional text (like Arabic and Hebrew), ensuring its proper rendering and orientation.                        | 0.6.6   | Supported      |
+
+<br><br>
+<br><br>
+<br><br>
+
+### **pip**
+
+Sometimes, when you use `pip install <library>` to install a package, you may encounter the error message: `error: externally-managed-environment`.
+<br><br>
+<br><br>
+
+![لقطة شاشة ](img/3.jpg "logo")
+
+<br><br>
+
+<_solutions_>
+
+1. Use `install pipx` and then use `pipx install <librlai-name>`
+   <br><br>
+
+2. Use `pip install <librlai-name> --break-system-packages` easy solution and is to directly.
+   <br><br>
+
+3. Use `python3 -m venv .venv`then run `source .venv/bin/activate` now you are in a real environment and you can use `pip install <librlai-name>`
+
+<br><br>
+<br><br>
+<br><br>
+
+# Developers
+
+**If you have any ideas or improvements that could benefit the project, feel free to**
+<br><br>
+Open an Issue to share your suggestions or report bugs.
+<br><br>
+Fork the repository, make your changes, and submit a Pull Request.
+<br><br>
+Contact me directly on GitHub for any questions or support.
+<br><br>
+
+@vuvvvv
